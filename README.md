@@ -33,6 +33,8 @@ graph TD
     *   Tinjauan rinci terhadap hasil deteksi coretan motorik (kinestetik) siswa beserta tangkapan umpan balik (feedback) TrOCR AI luring.
 4.  **Rekomendasi Klinis & Terapi:**
     *   Formulir khusus untuk mengirimkan rujukan catatan klinis resmi yang akan langsung tampil pada dasbor guru bersangkutan.
+5.  **Self-Healing Database Migrations:**
+    *   Sistem migrasi otomatis pada startup backend untuk menyisipkan kolom data baru seperti `last_seen` secara dinamis pada database SQLite bersama (`dyleks_shared.db`) luring tanpa risiko merusak integritas data klinis yang sudah ada.
 
 ---
 
